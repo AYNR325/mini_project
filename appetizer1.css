@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.appetizer{
+    /* background-image: linear-gradient(#22c1c3 ,#fdbb2d); */
+    /* background-image: linear-gradient(to right, #00b09b, #96c93d); */
+    /* background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%); */
+    background-image: radial-gradient( circle 759px at -6.7% 50%, rgba(80,131,73,1) 0%, rgba(140,209,131,1) 26.2%, rgba(178,231,170,1) 50.6%, rgba(144,213,135,1) 74.1%, rgba(75,118,69,1) 100.3% );
+}
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gold;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+.container{
+    
+    color: whitesmoke;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    justify-content: center;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+button{
+    color:black;
+    background-color:rgb(245, 222, 92);
+    border: 1px ;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+h2{
+    text-align:justify;
+    padding-top: 10px;
+    color: black;
+}
+h4{
+    text-align: justify;
+    padding-top: 10px;
+    color: black;
+}
+button:hover{
+    background-color: gold;
+    color: black;
+}

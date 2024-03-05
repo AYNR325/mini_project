@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+ }
+ .MainCourse{
+    /* background-image: linear-gradient(to right, #005aa7, #fffde4); */
+    /* background-image: linear-gradient(to right, #FFD194, #D1913C); */
+    /* background-image: linear-gradient(to right, #4f092e, #ff0084);  */
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);
+     
+ }
+ h1{
+     font-size: 60px;
+     font-weight: bold;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: gold;
+     text-align: center;
+     text-decoration: underline;
+     padding-top: 10px;
+     padding-bottom: 20px;
+     
+ }
+ .container{
+     color: whitesmoke;
+     display: flex;
+     gap: 30px;
+     flex-wrap: wrap;
+     padding: 10px 20px;
+     justify-content: center;
+ }
+ img{
+     width: 300px;
+     height: 300px;
+ }
+ button{
+     color:black;
+     border: 1px ;
+     background-color:rgb(245, 222, 92);
+     border-radius: 8px;
+     cursor: pointer;
+     padding: 10px 20px;
+     font-size: 15px;
+     margin-top: 10px;
+ }
+ h2{
+     text-align:justify;
+     padding-top: 10px;
+     color: black;
+ }
+ h4{
+     text-align: justify;
+     padding-top: 10px;
+     color: black;
+ }
+ button:hover{
+     background-color: gold;
+     color: black;
+ }
